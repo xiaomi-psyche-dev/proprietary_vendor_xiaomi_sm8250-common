@@ -117,6 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
@@ -295,6 +296,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
+    vendor.xiaomi.hardware.touchfeature@1.0-impl \
     jcos_nq_client \
     lib-imscmservice \
     lib-imsdpl \
@@ -617,6 +619,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys@2.0-vendor \
     vendor.xiaomi.hardware.misys@3.0-vendor \
     vendor.xiaomi.hardware.misys@4.0-vendor \
+    vendor.xiaomi.hardware.touchfeature@1.0-service \
     ims_rtp_daemon \
     imsdatadaemon \
     imsqmidaemon \
@@ -661,6 +664,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys@2.0-service \
     vendor.xiaomi.hardware.misys@3.0-service \
     vendor.xiaomi.hardware.misys@4.0-service \
+    toucheventcheck \
     vppservice \
     wifidisplayhalservice \
     xtra-daemon \
