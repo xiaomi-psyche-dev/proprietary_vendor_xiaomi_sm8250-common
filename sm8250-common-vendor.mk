@@ -320,6 +320,7 @@ PRODUCT_PACKAGES += \
     libdisplayqos \
     libdisplayskuutils \
     libdpmqmihal \
+    libdpps \
     libdrmfs \
     libdrmtime \
     libdsi_netctrl \
